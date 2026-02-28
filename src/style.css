@@ -12,34 +12,45 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.body{
-  position: relative;
-  background-color: #812424;
+
+body{
+  display: flex;
+  place-items: center;
+  justify-content: center;
 }
 
-#character-container{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin: auto;
-  background-color: rgb(44, 160, 160);
-  border: 13px color white
+#character_container{
+  position: relative;
+  width: 500px;
+  height: 600px;
+  background-color: aliceblue;
 }
 
 #head{
   position: absolute;
-  margin: auto;
   width: 500px;
   height: 600px;
+  z-index: 1;
+  top: 0;
+  left:0;
 }
 
 #bod{
   position: absolute;
+  width: 500px;
+  height: 600px;
+  z-index: 2;
+  top: 0;
+  left:0;
+
+}
+/* 
+#forsize{
+  position: relative;
   margin: auto;
   width: 500px;
   height: 600px;
-
-}
+} */
 
 /*  a {
   font-weight: 500;
