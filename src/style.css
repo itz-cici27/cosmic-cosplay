@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #5e2864;
+  /* background-color: #5e2864; */
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -26,24 +26,80 @@ body{
   background-color: aliceblue;
 }
 
-#head{
+#tail{
   position: absolute;
   width: 500px;
   height: 600px;
-  z-index: 1;
   top: 0;
   left:0;
+  transform: translate(115px, 150px);
+}
+
+#wings{
+  position: absolute;
+  width: 500px;
+  height: 600px;
+  top: 0;
+  left:0;
+  transform: translateY(100px);
 }
 
 #bod{
   position: absolute;
   width: 500px;
   height: 600px;
-  z-index: 2;
   top: 0;
   left:0;
+  transform: translateY(90px);
 
 }
+
+#head{
+  position: absolute;
+  width: 500px;
+  height: 600px;
+  top: 0;
+  left:0;
+  transform: translateY(-90px);
+}
+
+#ears{
+  position: absolute;
+  width: 500px;
+  height: 600px;
+  top: 0;
+  left:0;
+  transform: translateY(-90px);
+}
+
+#eyes{
+  position: absolute;
+  width: 500px;
+  height: 600px;
+  top: 0;
+  left:0;
+  transform: translateY(-90px);
+}
+
+#glasses{
+  position: absolute;
+  width: 500px;
+  height: 600px;
+  top: 0;
+  left:0;
+  transform: translateY(-15px);
+}
+
+#hat{
+  position: absolute;
+  width: 500px;
+  height: 600px;
+  top: 0;
+  left:0;
+  transform: translateY(-250px);
+}
+
+
 /* 
 #forsize{
   position: relative;
