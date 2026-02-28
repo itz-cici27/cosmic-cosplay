@@ -18,33 +18,21 @@
   top: 50%;
   left: 50%;
   margin: auto;
+  background-color: rgb(44, 160, 160);
   width: 755px;
   height: 987px;
-  background-color: rgb(80, 163, 163);
-  border: 15px solid black;
 }
 
 #head{
   position: absolute;
-  top: 50%;
-  left: 50%;
   margin: auto;
   width: 755px;
   height: 987px;
 }
 
-#tail{
+#bod{
   position: absolute;
-  top: 50%;
-  left: 50%;
   margin: auto;
-  width: 755px;
-  height: 987px;
-}
-
-#body{
-  margin: auto;
-  background-color:rgb(85, 60, 124);
   width: 755px;
   height: 987px;
 }
