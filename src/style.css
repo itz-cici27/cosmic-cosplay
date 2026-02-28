@@ -1,16 +1,20 @@
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: system-ui, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #5e2864;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+.body{
+  position: relative;
+  background-color: #812424;
 }
 
 #character-container{
@@ -19,22 +23,22 @@
   left: 50%;
   margin: auto;
   background-color: rgb(44, 160, 160);
-  width: 755px;
-  height: 987px;
+  border: 13px color white
 }
 
 #head{
   position: absolute;
   margin: auto;
-  width: 755px;
-  height: 987px;
+  width: 500px;
+  height: 600px;
 }
 
 #bod{
   position: absolute;
   margin: auto;
-  width: 755px;
-  height: 987px;
+  width: 500px;
+  height: 600px;
+
 }
 
 /*  a {
